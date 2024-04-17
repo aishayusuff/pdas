@@ -1,10 +1,12 @@
+/* eslint-disable react/prop-types */
 
 
-function ProfileCard() {
+function ProfileCard({title, handle}) {
  
     return (
         <>
-        Profile Card 
+            <h3>{title}</h3>
+            <h3>{handle}</h3> 
         </>
     )
 }
