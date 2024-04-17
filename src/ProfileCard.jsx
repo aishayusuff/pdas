@@ -14,10 +14,11 @@ function ProfileCard({title, handle, image, desc}) {
                     <p className="title is-4">{title}</p>
                     <p className="subtitle is-6">{handle}</p>
                 </div>
+                <div className="content">
+                    {desc}
+                </div>
             </div>
-            <div className="content">
-                {desc}
-            </div>
+  
         </div>
         // <>
         //     
